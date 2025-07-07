@@ -1,7 +1,7 @@
 const argument = process.argv.slice [2]
-if (argument === undefined){
+if (argument === 0){
     console.log ("No argument");
 }
 else {
-    console.log ("School School")
+    console.log (argument);
 }
