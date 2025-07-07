@@ -1,5 +1,5 @@
 const argument = process.argv.slice [2]
-if (argument === 0){
+if (argument === undefined){
     console.log ("No argument");
 }
 else {
