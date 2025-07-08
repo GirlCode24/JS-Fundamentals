@@ -5,5 +5,5 @@ const sentences = [
 ];
 
 for (let i = 0; i < sentences.length; i++){
-    console.log(snetences[i]);
+    console.log(sentences[i]);
 }
